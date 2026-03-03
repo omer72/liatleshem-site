@@ -1,0 +1,128 @@
+export type Lang = 'he' | 'en';
+
+export const translations = {
+  he: {
+    nav: {
+      home: 'בית',
+      voiceover: 'קריינות',
+      oncamera: 'מול מצלמה',
+      tv: 'טלוויזיה',
+      radio: 'רדיו',
+      corporate: 'סרטי תדמית',
+      dubbing: 'דיבוב',
+      acting: 'משחק',
+      presenting: 'הגשה',
+      photos: 'תמונות',
+      web: 'ארכיון',
+      contact: 'צרו קשר',
+      extras: 'עוד',
+      langSwitch: 'English',
+    },
+    hero: {
+      title: 'ליאת לשם',
+      subtitle: 'קריינית | שחקנית | מגישה',
+      description: 'קריינית רב-תחומית ושחקנית מנוסה מול מצלמה. עברית ואנגלית. הקלטה ביתית.',
+      cta: 'צרו קשר',
+      showreel: 'צפו בדמו',
+    },
+    sections: {
+      voiceover: {
+        title: 'קריינות',
+        description: 'פרסומות, פרומואים, תוכניות, מערכות קוליות, סרטי תדמית והדרכה ועוד',
+        categories: {
+          sales: 'קריינות מכירתית',
+          playful: 'קריינות שובבה',
+          sensual: 'קריינות סקסית',
+          warm: 'קריינות מחוייכת',
+          soft: 'קריינות רכה',
+          cosmetic: 'קריינות קוסמטית',
+        },
+      },
+      oncamera: {
+        title: 'מול מצלמה',
+        description: 'שחקנית ומגישה מול מצלמה. עברית ואנגלית. ניסיון בכל סוגי ההפקות.',
+        acting: 'משחק',
+        presenting: 'הגשה',
+        photos: 'גלריות תמונות',
+      },
+      contact: {
+        title: 'צרו קשר',
+        voiceAgent: 'סוכנת קריינות',
+        cameraAgent: 'סוכנת משחק והגשה',
+        name: 'שם',
+        email: 'אימייל',
+        message: 'הודעה',
+        send: 'שליחה',
+      },
+      web: {
+        title: 'ארכיון עבודות מתעדכן',
+        description: 'מבחר עבודות חדשות לרשותכם בערוץ היוטיוב שלי',
+      },
+    },
+    footer: {
+      rights: 'כל הזכויות שמורות',
+    },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      voiceover: 'Voice-Over',
+      oncamera: 'On-Camera',
+      tv: 'Television',
+      radio: 'Radio',
+      corporate: 'Corporate',
+      dubbing: 'Dubbing',
+      acting: 'Acting',
+      presenting: 'Presenting',
+      photos: 'Photos',
+      web: 'Archive',
+      contact: 'Contact',
+      extras: 'More',
+      langSwitch: 'עברית',
+    },
+    hero: {
+      title: 'Liat Leshem',
+      subtitle: 'Voice Artist | Actress | Presenter',
+      description: 'Versatile, experienced voice actress and on-camera performer. Hebrew and English. Home recording available.',
+      cta: 'Get in Touch',
+      showreel: 'Watch Demo',
+    },
+    sections: {
+      voiceover: {
+        title: 'Voice-Over',
+        description: 'Commercials, promos, shows, voice systems, corporate videos, and more',
+        categories: {
+          sales: 'Commercial',
+          playful: 'Playful',
+          sensual: 'Sensual',
+          warm: 'Warm & Friendly',
+          soft: 'Soft',
+          cosmetic: 'Cosmetic',
+        },
+      },
+      oncamera: {
+        title: 'On-Camera',
+        description: 'Actress and presenter on camera. Hebrew and English. Experienced across all production types.',
+        acting: 'Acting',
+        presenting: 'Presenting',
+        photos: 'Photo Galleries',
+      },
+      contact: {
+        title: 'Contact',
+        voiceAgent: 'Voice-Over Agent',
+        cameraAgent: 'Acting & Presenting Agent',
+        name: 'Name',
+        email: 'Email',
+        message: 'Message',
+        send: 'Send',
+      },
+      web: {
+        title: 'Updated Work Archive',
+        description: 'A selection of recent work available on my YouTube channel',
+      },
+    },
+    footer: {
+      rights: 'All rights reserved',
+    },
+  },
+} as const;
