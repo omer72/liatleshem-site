@@ -87,8 +87,9 @@ export default function Home() {
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-accent/20 to-gold/20 blur-2xl" />
               <img
-                src="/images/liat-hero.png"
+                src="/images/liat-hero.webp"
                 alt="ליאת לשם"
+                fetchPriority="high"
                 className="relative w-full h-full object-cover rounded-full border-2 border-white/10 shadow-2xl"
               />
             </div>

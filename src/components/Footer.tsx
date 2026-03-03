@@ -107,10 +107,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/30 text-xs">
+          <p className="text-white/50 text-xs">
             © {new Date().getFullYear()} {t.hero.title}. {t.footer.rights}.
           </p>
-          <a href="mailto:contact@liatleshem.com" className="flex items-center gap-2 text-white/30 hover:text-white/60 text-xs transition-colors">
+          <a href="mailto:contact@liatleshem.com" className="flex items-center gap-2 text-white/50 hover:text-white/70 text-xs transition-colors">
             <Mail size={12} /> contact@liatleshem.com
           </a>
         </div>
