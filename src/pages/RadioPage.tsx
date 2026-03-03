@@ -146,7 +146,6 @@ function AudioTrack({ track, isPlaying, onToggle }: { track: Track; isPlaying: b
 export default function RadioPage() {
   const { isRtl, lang } = useLanguage();
   const [playingTrack, setPlayingTrack] = useState<string | null>(null);
-  const audioRefs = useRef<Map<string, HTMLAudioElement>>(new Map());
 
   const handleToggle = (mp3: string) => {
     if (playingTrack === mp3) {
